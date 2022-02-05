@@ -1,0 +1,233 @@
+.fonts{
+font-family: 'Montserrat', sans-serif;
+}
+.potocaLanches{
+    padding: 0px;
+    left: 50px;
+}
+nav{
+    position:absolute;
+    right: 100px;
+    top: 230px;
+
+}
+
+nav li{
+    display: inline;
+    margin: 10px 10px 0 1px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+header{
+    background-color: #ffffff ;
+}
+
+.mapa{
+    
+    width: 100%;
+    
+}
+
+.cafe li:hover{
+    border-color: #4b360b;
+}
+.cafe li:active{
+    border-color: #d6d30e;
+
+}
+
+.cafe li:hover h2{
+    font-size: 34px;
+}
+
+.cafe{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0; /* aumento o espaçamento interno*/
+}
+/*Fotos*/
+.fotoCafe{
+    width: 54%;
+    padding: 20px;
+}
+.fotoCaco{
+    height: 100%;
+    width: 88%;
+    padding: 20px;
+}
+.fotoVitor{
+    padding: 20px;
+    width: 60%;
+}
+/*//*/
+.cafe li{
+    display: inline-block; /* revisar direitinho */
+    text-align: center;
+    width: 30%; /* largura de 1/3 dos itens sobre a pagina */
+    vertical-align: top; /*dizer para ele se orientar pela linha de cima */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*Faz com que os 30% do width seja definitivo e não adicione mais os 30 px do padding*/
+    border: 2px solid #000000;
+    border-radius:10px;
+}
+.cafe h2 {
+    /*h2 do head 2     será produtos do h2, então será só as linhas escritas */
+    font-size: 30px;
+    font-weight: bold;
+}
+.cafe p{
+    font-size: 18px;
+    padding: 10px;
+}
+.preco{
+    font-weight: bold;
+}
+/*///////////////////////////////////////////////////////////////*/
+
+
+.segunda li:hover{
+    border-color: #4b360b;
+}
+.segunda li:active{
+    border-color: #d6d30e;
+}
+.segunda li:hover h2{
+    font-size: 34px;
+}
+.segunda{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0px 0; /* aumento o espaçamento interno*/
+}
+.segunda li{
+    display: inline-block; /* revisar direitinho */
+    text-align: center;
+    width: 30%; /* largura de 1/3 dos itens sobre a pagina */
+    vertical-align: top; /*dizer para ele se orientar pela linha de cima */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*Faz com que os 30% do width seja definitivo e não adicione mais os 30 px do padding*/
+    border: 2px solid #000000;
+    border-radius:10px;
+}
+.segunda h2 {
+    /*h2 do head 2     será produtos do h2, então será só as linhas escritas */
+    font-size: 30px;
+    font-weight: bold;
+}
+.segunda p{
+    font-size: 18px;
+    padding: 10px;
+}
+ /*Fotos segunda pagina */
+.fotoDaviz{
+    width: 64%;
+    padding: 10%;
+}
+.fotoChad{
+    width: 91.4%;
+    padding: 10%;
+}
+.fotoZezeco{
+    width: 98%;
+    padding: 10%;
+}
+/* fotos */
+
+
+/*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10pxpx 25px 100px ; padding-bottom: 40px;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; padding-bottom: 10px; }
+
+.footer_ul2_amrc {margin:zpx; list-style-type:none; padding:190px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+    text-align: center;
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+/* Credit to https://bootsnipp.com/snippets/bxDBA */
+
+@media screen and (max-width: 480px){
+   header{
+    text-align: center;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+
+    .cafe{
+    width: auto;
+    height: auto;
+    }
+    .segunda{
+    width: auto;
+    height: auto;
+    }
+    .cafe li{
+        display: inline-block; /* revisar direitinho */
+        text-align: center;
+        width: 80%; /* largura de 1/3 dos itens sobre a pagina */
+        vertical-align:top; /*dizer para ele se orientar pela linha de cima */
+        margin: 0 1.5%;
+        padding: 30px 20px;
+        margin-left: 40px;
+        box-sizing: border-box; /*Faz com que os 30% do width seja definitivo e não adicione mais os 30 px do padding*/
+        border: 2px solid #000000;
+        border-radius:10px;
+    }
+    .segunda li{
+        display: inline-block; /* revisar direitinho */
+        text-align: center;
+        width: 80%; /* largura de 1/3 dos itens sobre a pagina */
+        vertical-align: top; /*dizer para ele se orientar pela linha de cima */
+        margin: 0 1.5%;
+        padding: 30px 20px;
+        margin-left: 40px;
+        box-sizing: border-box; /*Faz com que os 30% do width seja definitivo e não adicione mais os 30 px do padding*/
+        border: 2px solid #000000;
+        border-radius:10px;
+    }
+}
