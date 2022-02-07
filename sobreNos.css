@@ -141,3 +141,31 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
 .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+@media screen and (max-width: 480px){
+    .icon{
+        position: relative;
+        right: 30px;
+    }
+    .fotoPadrao{
+        position: static;
+        width: 50%;
+        height: 30%;
+    }
+    .conteudo-titulo{
+        position:relative;
+        top: 20px;
+        font-size: 30px;
+    }
+    .conteudo-subtitulo{
+        font-size: 18px;
+    }
+    .butao{
+        position: relative;
+        bottom: 20px;
+    }
+    .segundo-paragrafo{
+        text-align:center;
+        font-size: 16px;
+    }
+}
