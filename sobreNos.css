@@ -155,14 +155,18 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     .conteudo-titulo{
         position:relative;
         top: 20px;
+        left: 10px;
         font-size: 30px;
     }
     .conteudo-subtitulo{
+        position: relative;
         font-size: 18px;
+        left: 10px;
     }
     .butao{
         position: relative;
         bottom: 20px;
+        left: 5px;
     }
     .segundo-paragrafo{
         text-align:center;
